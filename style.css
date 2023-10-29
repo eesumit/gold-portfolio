@@ -1,0 +1,251 @@
+/* .link{
+    color: rgba(209,186,113,255);
+    text-decoration: none;
+} */
+.main{
+    color:white;
+    margin-top: 160px;
+}
+.custom-hr {
+    border: 0; /* Remove default border */
+    border-top: 2px solid rgba(209,186,113,255); /* Customize the color and thickness of the line */
+    margin: 20px 0; /* Add some space above and below the line */
+}
+h2{
+    display: inline;
+    color: rgb(230, 190, 58);
+    margin-bottom: -1rem;
+    /* margin-left: 0px; */
+}
+h1{
+    display: inline;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.h1:hover{
+    /* background-color: black; */
+    color:rgb(230, 190, 58);
+    text-shadow:
+    5px 5px 10px rgb(71, 62, 7);
+    text-transform: lowercase;
+}
+.esumit{
+    color: rgb(230, 190, 58);
+    font-size: 3rem;
+    animation: blink 4s infinite;
+    /* cursor: progress; */
+    /* cursor: pointer; */
+    caret-color: blue;
+}
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+.image-responsive {
+        max-width: 100%; /* Ensure image doesn't exceed its container's width */
+        height: auto; /* Maintain aspect ratio */
+        border: 2px solid black;
+        border-radius: 10px;
+}
+/* Styles for small devices (phones) */
+@media (max-width: 412px) {
+    .image-responsive {
+        max-width: 30%; /* Adjust as needed for small screens */
+    }
+}
+/* Styles for medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .image-responsive {
+        max-width: 60%; /* Adjust as needed for medium screens */
+    }
+}
+/* Styles for large devices (desktops) */
+@media (min-width: 992px) {
+    .image-responsive {
+        max-width: 100%; /* Adjust as needed for large screens */
+    }
+}
+
+
+
+/* Default font size for all devices */
+h1 {
+    font-size: 16px; /* Adjust as needed for default size */
+}
+
+/* Font size for small devices (phones) */
+@media (max-width: 412px) {
+    h1 {
+        font-size: 7px; /* Adjust as needed for small screens */
+    }
+}
+
+/* Font size for medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 12px; /* Adjust as needed for medium screens */
+    }
+}
+
+/* Font size for large devices (desktops) */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 18px; /* Adjust as needed for large screens */
+    }
+}
+
+.bt{
+    margin-top: 30px;
+}
+.btn1{
+    color:white;
+    margin-right: 20px;
+
+}
+
+.btn1{
+    background: linear-gradient(to right, #c1aa25, black); /* Define your gradient colors */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn2{
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background: linear-gradient(to right, #c1aa25, black);
+    cursor: pointer;
+    /* text-transform: var("click"); */
+}
+.img2{
+    border: 0;
+}
+.intro{
+    margin-top: 250px;
+}
+.button{ 
+    background: linear-gradient(to right, #c1aa25, black);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.button:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.arena{
+    margin-top: 170px;
+    color: white;
+    
+}
+.display-2:hover{
+    color:rgb(230, 190, 58);
+}
+.leetcode{
+    height: 500px;
+    width: 100%;
+    border: 2px solid rgba(254,164,29,255);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.leetcode:hover{
+    border-color: blue;
+}
+.coding{
+    /* margin-top: 200px; */
+    color: white;
+    font-size: 100px;
+}
+.leet{
+    color: rgba(254,164,29,255);
+}
+.leet:hover{
+    color: white;
+}
+.code:hover{
+    color: rgba(254,164,29,255);
+}
+.logo{
+    border:2px solid rgba(254,164,29,255);
+    border-radius: 10px;
+    width: 504px;
+    height: 264px;
+}
+.logo:hover{
+    border-color: blue;
+}
+.cod{
+    color: rgba(84,50,22,255);
+}
+.cod:hover{
+    color: white;
+}
+.chef:hover{
+    color: rgba(84,50,22,255);
+}
+.mail{
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #c1aa25, black);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.mail:hover{
+    background: linear-gradient(to right, #c1aa25, black);
+
+}
+.text-uppercase{
+    margin-top: 50px;
+}
+.update{
+    color: white;
+}
+#update{
+    font-weight: 700;
+}
+input{
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.form-control{
+    margin-right: 20px;
+}
+.button{
+    border-radius: 10px;
+    height: 50px;
+    width: 170px;
+}
+
+
+
+.footer{
+    height: 100px;
+}
